@@ -4,7 +4,7 @@ import numpy as np
 
 st.title(":blue[Top IMDB Movies]")
 
-data = pd.read_csv("pages/movies.csv")
+data = pd.read_csv("/pages/movies.csv")
 st.write(data)
 
 n = st.number_input("Tell me your number", value = 20)
