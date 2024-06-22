@@ -14,4 +14,4 @@ data_sorted = data_sorted.head(n)
 
 st.write(n, ":orange[Movies & Shows with highest IMDB rating]")
 
-st.bar_chart(data_sorted, x="title", y="imdb_score", color="type")
+st.bar_chart(data_sorted, x="title", y="imdb_score", color="type", x_label="Title", y_label="IMDB Score")
