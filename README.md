@@ -1,4 +1,4 @@
-Mortgage Calculator using Streamlit Pthon library.
+Mortgage Calculator using Streamlit Python library.
 
 ## App link: https://shorturl.at/AQSOR
 
